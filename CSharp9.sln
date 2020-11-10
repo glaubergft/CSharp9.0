@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Covariant returns", "01 - Covariant returns", "{23EB0DC6-D7CD-4986-8CD5-DB9CDAD59D5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Init only setters", "02 - Init only setters", "{5A1DFA41-BD94-4F99-B015-384FCBAE93EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Records", "03 - Records", "{A2C77FB8-89B2-404A-8759-DC09F86DBC7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Patterns", "04 - Patterns", "{06C77513-B22B-4A23-986F-55507683FC08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Top-level programs", "05 - Top-level programs", "{8D3B41C7-2253-4F40-ACA8-F30AA8B550AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovariantReturns", "01 - Covariant returns\CovariantReturns.csproj", "{2737F37C-7322-4B10-B059-D7DD2E25BB05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitOnlySetters", "02 - Init only setters\InitOnlySetters.csproj", "{20FB9F38-2EFA-4CB3-8744-D30F70658376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Records", "03 - Records\Records.csproj", "{031CA690-CF9C-42CF-81EE-B3ED71743FD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns", "04 - Patterns\Patterns.csproj", "{E8141BAE-1189-4EBA-9569-9076B682642E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelPrograms", "05 - Top-level programs\TopLevelPrograms.csproj", "{13E9D526-6061-481C-A6F5-B64E155A6BED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2737F37C-7322-4B10-B059-D7DD2E25BB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2737F37C-7322-4B10-B059-D7DD2E25BB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2737F37C-7322-4B10-B059-D7DD2E25BB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2737F37C-7322-4B10-B059-D7DD2E25BB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FB9F38-2EFA-4CB3-8744-D30F70658376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FB9F38-2EFA-4CB3-8744-D30F70658376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FB9F38-2EFA-4CB3-8744-D30F70658376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FB9F38-2EFA-4CB3-8744-D30F70658376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031CA690-CF9C-42CF-81EE-B3ED71743FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031CA690-CF9C-42CF-81EE-B3ED71743FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031CA690-CF9C-42CF-81EE-B3ED71743FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031CA690-CF9C-42CF-81EE-B3ED71743FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8141BAE-1189-4EBA-9569-9076B682642E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8141BAE-1189-4EBA-9569-9076B682642E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8141BAE-1189-4EBA-9569-9076B682642E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8141BAE-1189-4EBA-9569-9076B682642E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E9D526-6061-481C-A6F5-B64E155A6BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E9D526-6061-481C-A6F5-B64E155A6BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E9D526-6061-481C-A6F5-B64E155A6BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E9D526-6061-481C-A6F5-B64E155A6BED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2737F37C-7322-4B10-B059-D7DD2E25BB05} = {23EB0DC6-D7CD-4986-8CD5-DB9CDAD59D5F}
+		{20FB9F38-2EFA-4CB3-8744-D30F70658376} = {5A1DFA41-BD94-4F99-B015-384FCBAE93EF}
+		{031CA690-CF9C-42CF-81EE-B3ED71743FD5} = {A2C77FB8-89B2-404A-8759-DC09F86DBC7C}
+		{E8141BAE-1189-4EBA-9569-9076B682642E} = {06C77513-B22B-4A23-986F-55507683FC08}
+		{13E9D526-6061-481C-A6F5-B64E155A6BED} = {8D3B41C7-2253-4F40-ACA8-F30AA8B550AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA1727A-7089-465A-9A54-4DDCF8C51EF0}
+	EndGlobalSection
+EndGlobal
